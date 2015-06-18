@@ -9,6 +9,7 @@ GEM
     rack (1.6.2)
     rack-protection (1.5.3)
       rack
+    rack-ssl-enforcer (0.2.8)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -27,5 +28,6 @@ PLATFORMS
 
 DEPENDENCIES
   faye-websocket
+  rack-ssl-enforcer
   sinatra
   thin

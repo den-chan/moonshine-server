@@ -3,7 +3,7 @@ Faye::WebSocket.load_adapter('thin')
 require 'json'
 require 'erb'
 
-module Moonshine  
+module Moonshine
   class Backend
     Peer = Struct.new(:ws, :peer)
 
